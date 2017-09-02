@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.score,
+.title,
+.lives {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 2px 2px 6px green;
+    width: 30%;
+    display: inline-block;
+}
+
+.option {
+	max-width: 50px;
+	max-height: 50px;
+}
