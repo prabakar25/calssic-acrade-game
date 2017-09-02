@@ -27,6 +27,6 @@ or
   - Initial score will be 0 and lives will be 3.
   - Everytime player reaches water score will be incremented by one.
   - If the player get collided with the enemy life will be reduced by one and player position will be reset to initial position.
-  - when palyer looses all the three lives the game will restart.
+  - when player looses all the three lives the game will restart.
 
 **HAVE FUN**
