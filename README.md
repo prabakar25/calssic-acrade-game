@@ -6,11 +6,13 @@ This is a classic acrade game which consists of *Player* and *Enemies*. The game
 **How to run the game** 
 
 **1.By cloning the following Github repository.**
+
 	https://github.com/prabakar25/calssic-acrade-game
 
 or
 
-**2.Download the repository**
+**2.Download the repository.**
+
 	Download the repository, unzip it and open the 'index.html' file to play the game.
 
 **Instructions to play the game:**
