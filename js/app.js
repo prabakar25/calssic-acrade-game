@@ -82,7 +82,7 @@ Player.prototype.update = function() {
         this.x = 0;
     }
 
-    // Check for player reaching top of canvas and winning the game
+    // Check for player reaching top of canvas
     if (this.y < 0) {
         this.x = 200;
         this.y = 380;
@@ -128,18 +128,18 @@ var enemyPosition = [60, 140, 220];
 var player = new Player(200, 380, 50);
 var enemy;
 
-enemyPosition.forEach(function(posY) {
+enemyPosition.forEach(function(position) {
     if (score > 10) {
     var num = 100;
-    enemy = new Enemy(0, posY, 100 + Math.floor(Math.random() * num * 2));
+    enemy = new Enemy(0, position, 100 + Math.floor(Math.random() * num * 2));
     allEnemies.push(enemy);
     } else if (score > 25) {
         var num = 100;
-        enemy = new Enemy(0, posY, 100 + Math.floor(Math.random() * num * 4));
+        enemy = new Enemy(0, position, 100 + Math.floor(Math.random() * num * 4));
         allEnemies.push(enemy);
     } else {
         var num = 100;
-        enemy = new Enemy(0, posY, 100 + Math.floor(Math.random() * num));
+        enemy = new Enemy(0, position, 100 + Math.floor(Math.random() * num));
         allEnemies.push(enemy);
     }
 
