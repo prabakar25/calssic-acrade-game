@@ -131,15 +131,15 @@ var enemy;
 enemyPosition.forEach(function(position) {
     if (score > 10) {
     var num = 100;
-    enemy = new Enemy(0, position, 100 + Math.floor(Math.random() * num * 2));
+    enemy = new Enemy(0, position, num + Math.floor(Math.random() * num * 2));
     allEnemies.push(enemy);
     } else if (score > 25) {
         var num = 100;
-        enemy = new Enemy(0, position, 100 + Math.floor(Math.random() * num * 4));
+        enemy = new Enemy(0, position, num + Math.floor(Math.random() * num * 4));
         allEnemies.push(enemy);
     } else {
         var num = 100;
-        enemy = new Enemy(0, position, 100 + Math.floor(Math.random() * num));
+        enemy = new Enemy(0, position, num + Math.floor(Math.random() * num));
         allEnemies.push(enemy);
     }
 
