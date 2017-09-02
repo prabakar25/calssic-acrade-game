@@ -6,7 +6,7 @@ This is a classic acrade game which consists of *Player* and *Enemies*. The game
 **How to run the game** 
 
 **1.By cloning the following Github repository.**
-	https://github.com/prabakar25/calssic-acrade-game-clone
+	https://github.com/prabakar25/calssic-acrade-game
 
 or
 
