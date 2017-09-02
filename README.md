@@ -1,13 +1,13 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-This is a classic acrade game which consists of *Player* and *Enemies*. The game is very simple, the player should reach the water from the grass by crossing the stone path. But the player should escape from the enemies (Bugs) which will be crossing the path to intervene the player from reaching the water. 
+This is a classic arcade game which consists of *Player* and *Enemies*. The game is very simple, the player should reach the water from the grass by crossing the stone path. But the player should escape from the enemies (Bugs) which will be crossing the path to intervene the player from reaching the water. 
 
 **How to run the game** 
 
 **1.By cloning the following Github repository.**
 
-	https://github.com/prabakar25/calssic-acrade-game
+	https://github.com/prabakar25/classic-arcade-game
 
 or
 
